@@ -1,0 +1,263 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body {
+    font-family: 'open Sans', sans-serif;
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+/* header */
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, #5ee7df 0%, rgba(180, 144, 202, 0.473) 100%), url(Imagen/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head {
+     padding: 0;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: #fff;
+}
+
+header .fotoJohnni {
+    border-radius: 50% ;
+    border: solid 4px black ;    
+}
+
+.titulo{
+    font-size: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: black;
+}
+
+
+/* Menu */
+
+.Menu {
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px ;
+    height:40px ;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgb(0, 0, .5);
+}
+
+.menu-navegacion {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 6px rgb(0, 0, rgb(0, 0, .5));
+    font-size: 40px;
+    transform: translate(110%);
+}
+
+.spread {
+    transform: translate(0);
+}
+
+.menu-navegacion a {
+    color: #fff;
+    text-decoration: none;
+}
+
+  
+.copy{
+    font-weight: 300;
+    font-size: 20px;
+}
+.sibtitulo {
+    text-align: center;
+    font-weight: 300;
+    color: #9f8ad0;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Servicio{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff ;
+}
+.imagenMain{
+    border-radius: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contenedor-servicio img{
+    width: 40%;
+}
+.checklist-servicio{
+    width: 45%;
+}
+.service {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 35px;
+}
+.n-service {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+.serviceP{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.number {
+    display: inline-block;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 45px;
+    margin-right: 5px;
+}
+
+.tablink {
+    background-color: #008FA5  ;
+    color: #fff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+    
+    justify-content: space-evenly;
+
+    
+  }
+  
+  .tablink:hover {
+    background-color:#007183;
+    
+  }
+  
+  
+  .tabcontent {
+    color: #007183;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+
+  }
+  
+  #sobre_mi{
+      background-color: #ACECFE;
+      font-size: 58.1px;
+      
+  }
+  #mi_educacion {
+    margin-top: 0;
+    background-color: #ACECFE;
+    font-size: 47.5px;
+    
+}
+
+
+/* footer */
+
+footer{
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    padding-bottom: 0.1px;
+
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #13547a ;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff ;
+
+}
+.social-media-icon:hover{
+    background: #13547a;
+    color: greenyellow;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+    
+}

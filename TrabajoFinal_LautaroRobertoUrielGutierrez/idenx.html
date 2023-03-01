@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="Icon/Johnni.ico">
+    <title>Curriculum</title>
+</head>
+<body>
+    <header class="header" id="Inicio">
+      <img src="boxicons/Menu.svg" class="Menu">
+      <nav class="menu-navegacion">
+        <a href="#Inicio">Inicio</a>
+        <a href="#Informacion">Informacion</a>
+        <a href="#contacto">Footer</a>
+      </nav>
+      <div class="contenedor head">
+        <img class="fotoJohnni" src="Imagen/Johnni.jpg">
+        <h1 class="titulo">Mi Portafolio</h1> 
+      </div>
+    </header>
+    <main>
+        <section class="contenedor" id="Informacion">
+            <h2 class="Servicio">Mi servicio:</h2>
+            <div class="contenedor-servicio">
+               <img class="imagenMain" src="Imagen/checklist.jpg" alt="">
+               <div class="checklist.servicio">
+                 <div class="service">
+                    <h3 class="n-service"><span class="number">1</span>Diseño Web:</h3>
+                    <p class="serviceP">Hago pagina con variedad de plantillas hecha personalmente por mi como tambien puedo hacer una totalmente personalizada!! </p>
+                    <h3 class="n-service"><span class="number">2</span>Programador de App:</h3>
+                    <p class="serviceP">Hago app moviles con diseños basicos para empresa o negocios que requieran una app para agilizar su trabajo!! </p>
+                    <h3 class="n-service"><span class="number">3</span>Ciber Seguridad:</h3>
+                    <p class="serviceP">Puedo proteger tus servidores de ataques de terceros o de tambien malware.</p>
+                 </div>
+                   <button class="tablink" onclick="openPage('sobre_mi', this, 'sky blue')" id="defaultOpen">Sobre Mi</button>
+                   <button class="tablink" onclick="openPage('mi_educacion', this, 'sky blue')">Mi Educacion</button>
+               </div>
+               <div id="sobre_mi" class="tabcontent">
+                <h2>Mi Nombre: Johnni Sutton</h2>
+                   <p> fecha de Nacimiento: 7/01/1997</p>
+                   <p>Direccion:Spring hill RD</p>
+                   <p>Telefono: (801) 8592874</p>
+            </div>
+            <div id="mi_educacion" class="tabcontent">
+              <h2>Todo con su certificado en regla</h2>
+              <p>Carrera de Ingieneria Concluida<p>
+                <span></span>
+                  <p>Ingles Avanzado</p>
+                <span></span>
+                  <p>Doctorado en tecnologia educativa</p>
+              
+            </div>
+          </div>
+    </main>
+  <footer id="contacto">
+    <div class="contenedor footer-content">
+      <div class="contact-us">
+         <h2 class="brand">Johnni Sutton</h2>
+         <p>Somos expertos en la creacion de tu sueños</p>
+      </div> 
+   <div class="social-media">
+          <a href="https://www.snapchat.com/" class="social-media-icon">
+              <i class='bx bxl-snapchat'></i>
+          </a>
+          <a href="https://es-la.facebook.com/" class="social-media-icon">
+              <i class='bx bxl-facebook-square'></i>
+          </a>
+          <a href="https://www.instagram.com/"  class="social-media-icon">
+              <i class='bx bxl-instagram' ></i>
+          </a>
+        </div>
+     </div>
+     <div class="line"></div>
+  </footer>
+  <script src="infPer.js"></script> 
+  <script src="menu.js"></script>
+  <script src="lightbox.js"></script>
+</body>
+</html>
